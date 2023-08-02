@@ -81,7 +81,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed finetune.py --model_config_file run_confi
 
 ### Case 1
 
-```json
+```
 'child':明天就要跟同学出去旅游咯！
 'agent':你好像很兴奋呢，喜欢旅行的感觉吗？
 'child':对呀，我最最最喜欢跟同学一起去玩了！
@@ -97,7 +97,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed finetune.py --model_config_file run_confi
 
 ### Case 2
 
-```json
+```
 'child':班上的其他同学都有自己要好的朋友，我却一个人孤零零的，好孤独啊
 'agent':我可以理解你现在的感受，你觉得自己有点孤独，想要有一个朋友陪伴你。
 'child':是这样
@@ -116,7 +116,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed finetune.py --model_config_file run_confi
 
 ### Case 3
 
-```json
+```
 'child':我爸爸妈妈离婚了，妈妈说她不要我了
 'agent':听到你这样说，我非常难过。你现在感觉怎么样？
 'child':我觉得天都要塌了，我妈妈不爱我了，我再也没有一个完整的家了
