@@ -1,5 +1,5 @@
 <p align="center">
-<img width="200px" alt="Project QiaoBan" src="./logo.png">
+<img width="400px" alt="Project QiaoBan" src="./logo.png">
 </p>
 <hr>
 
@@ -23,11 +23,11 @@ Qiaoban Large Model is an open-source children's emotional companion dialogue mo
 
 This is a repository for the Qiaoban Large Model, aiming to build a large model focused on emotional companionship for children. This repository includes:
 
-- Dialog data for instruction fine-tuning
+- Dialog data for instruction fine-tuning `/data`
 - Code `collect.py` for obtaining parent-child conversations from ChatGPT
 - Training code for the Qiaoban model
 - Training configuration files
-- Example code for conversing with the Qiaoban model(TODO)
+- Example code for conversing with the Qiaoban model(TODO, checkpoint to be uploaded to huggingface)
 
 ## Parent-Child Empathetic Dialogue Data Construction
 
@@ -138,7 +138,11 @@ We have sampled three interactions with Qiaoban for demonstration:
 
 ## Project Contributors
 
-This project was completed by the Emotional Computing Group of the Social Computing and Information Retrieval Research Center, Harbin Institute of Technology. The project was supervised by Associate Professor Yan Yan Zhao, Professor Bing Qin, and Professor Ting Liu.
+This project was completed by the Sentiment Computing Group of the Social Computing and Information Retrieval Research Center, Harbin Institute of Technology. 
+
+Project Developer: Weixiang Zhao, Yanpeng Tong, Shilong Wang, Tian Zheng, Chenxue Wang.
+
+The project was supervised by Associate Professor Yan Yan Zhao and Professor Bing Qin
 
 ## Acknowledgments
 
@@ -148,6 +152,8 @@ This project references the following open-source projects, and we would like to
 - BaiZe: https://github.com/project-baize/baize-chatbot
 
 The list of real-life children's dialogue topics used in constructing the parent-child empathetic dialogue dataset was provided as reference by **iFLYTEK**.
+
+We deliver sincere thanks to all specialists and volunteers who participate in data collection, annotation and revision.
 
 ## Disclaimer
 

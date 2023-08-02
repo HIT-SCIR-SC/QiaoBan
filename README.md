@@ -1,7 +1,8 @@
 <p align="center">
-<img width="200px" alt="Project QiaoBan" src="./logo.png">
+<img width="400px" alt="Project QiaoBan" src="./logo.png">
 </p>
 <hr>
+
 
 [**中文**](./README.md) | [**English**](./README_EN.md)
 
@@ -22,11 +23,11 @@
 
 这是一个巧板大模型的仓库，旨在构建一个面向儿童情感陪伴的大模型，这个仓库包含：
 
-- 用于指令微调的对话数据
+- 用于指令微调的对话数据`/data`
 - 从ChatGPT中获取亲子对话的代码`collect.py`
 - 巧板的训练代码
 - 训练配置文件
-- 使用巧板进行对话的示例代码（TODO）
+- 使用巧板进行对话的示例代码（TODO，checkpoint将发布至huggingface）
 
 ## 亲子共情对话数据构建
 
@@ -80,7 +81,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed finetune.py --model_config_file run_confi
 
 ### Case 1
 
-```
+```json
 'child':明天就要跟同学出去旅游咯！
 'agent':你好像很兴奋呢，喜欢旅行的感觉吗？
 'child':对呀，我最最最喜欢跟同学一起去玩了！
@@ -96,7 +97,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed finetune.py --model_config_file run_confi
 
 ### Case 2
 
-```
+```json
 'child':班上的其他同学都有自己要好的朋友，我却一个人孤零零的，好孤独啊
 'agent':我可以理解你现在的感受，你觉得自己有点孤独，想要有一个朋友陪伴你。
 'child':是这样
@@ -115,7 +116,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed finetune.py --model_config_file run_confi
 
 ### Case 3
 
-```
+```json
 'child':我爸爸妈妈离婚了，妈妈说她不要我了
 'agent':听到你这样说，我非常难过。你现在感觉怎么样？
 'child':我觉得天都要塌了，我妈妈不爱我了，我再也没有一个完整的家了
@@ -138,7 +139,11 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed finetune.py --model_config_file run_confi
 
 ## 项目参与者
 
-本项目由哈尔滨工业大学社会计算与信息检索研究中心情感计算组完成，指导教师为赵妍妍副教授，秦兵教授以及刘挺教授。
+本项目由哈尔滨工业大学社会计算与信息检索研究中心情感计算组完成。
+
+项目主要开发人员：[赵伟翔](https://github.com/circle-hit)、[童彦澎](https://github.com/yanpengt06)、王世龙、郑田、王晨雪。
+
+指导教师：[赵妍妍](http://homepage.hit.edu.cn/yanyan)副教授，[秦兵](http://ir.hit.edu.cn/~qinb/)教授。
 
 ## 致谢
 
@@ -148,6 +153,8 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed finetune.py --model_config_file run_confi
 - BaiZe: https://github.com/project-baize/baize-chatbot
 
 本项目构建亲子共情对话数据集所用到的真实场景话题列表由**科大讯飞**提供参考。
+
+我们对参与数据收集、标注、修改的所有专家学者与志愿者致以最诚挚的感谢。
 
 ## 免责声明
 
