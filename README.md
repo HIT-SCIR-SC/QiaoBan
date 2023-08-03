@@ -60,7 +60,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed finetune.py --model_config_file run_confi
 
 ### 4. 样例展示
 
-我们采样了两个与巧板进行交互的样例进行展示：
+我们采样了三个与巧板进行交互的样例进行展示：
 
 ### Case 1
 

@@ -58,7 +58,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed finetune.py --model_config_file run_confi
 
 ### 4. Sample Showcase
 
-We have sampled two interactions with QiaoBan to showcase:
+We have sampled three interactions with QiaoBan to showcase:
 
 ### Case 1
 
@@ -125,7 +125,7 @@ This kind of human-machine interaction is crucial for helping children grow up h
 
 ## Project Contributors
 
-This project was completed by the Sentiment Computing Group at the Social Computing and Information Retrieval Research Center, Harbin Institute of Technology.
+This project was completed by the **Sentiment Computing Group** at the Social Computing and Information Retrieval Research Center, Harbin Institute of Technology.
 
 Main Developers: [赵伟翔 (Zhao Weixiang)](https://github.com/circle-hit), [童彦澎 (Tong Yanpeng)](https://github.com/yanpengt06), 王世龙 (Wang Shilong), 郑田 (Zheng Tian), 王晨雪 (Wang Chenxue).
 
