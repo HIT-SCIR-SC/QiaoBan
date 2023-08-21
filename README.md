@@ -6,6 +6,12 @@
 <img width="400px" alt="Project QiaoBan" src="./logo.png">
 </p>
 
+### [0821更新] checkpoint已上传[huggingface](https://huggingface.co/tomxyz/qiaoban_bc)
+
+若有相关使用需求，欢迎与我们取得联系
+- 赵伟翔（wxzhao@ir.hit.edu.cn）
+- 赵妍妍（yyzhao@ir.hit.edu.cn）
+
 ## 概览
 
 这是一个巧板大模型的仓库，旨在构建一个面向儿童情感陪伴的大模型，这个仓库包含：
