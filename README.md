@@ -154,3 +154,16 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 deepspeed finetune.py --model_config_file run_confi
 ## 免责声明
 
 本项目相关资源仅供学术研究之用，严禁用于商业用途。使用涉及第三方代码的部分时，请严格遵循相应的开源协议。模型生成的内容受模型计算、随机性和量化精度损失等因素影响，本项目无法对其准确性作出保证。对于模型输出的任何内容，本项目不承担任何法律责任，亦不对因使用相关资源和输出结果而可能产生的任何损失承担责任。
+
+## 引用
+如果您使用了本项目的数据或者代码，或是我们的工作对您有所帮助，请声明引用
+```
+@misc{qiaoban2023,
+    author = {Weixiang Zhao, Shilong Wang, Yanpeng Tong, Xin Lu, Zhuojun Li, Yanyan Zhao*, Chenxue Wang, Tian Zheng & Bing Qin},
+    title = {QiaoBan: A Parental Emotion Coaching Dialogue Assistant for Better Parent-Child Interaction},
+    year = {2023},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/HIT-SCIR-SC/QiaoBan}}  
+}
+```
